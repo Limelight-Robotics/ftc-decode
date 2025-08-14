@@ -1,9 +1,7 @@
-## NOTICE
+<div align="center">
 
-This repository contains the public FTC SDK for the INTO THE DEEP (2024-2025) competition season.
-
-## Welcome!
-This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK, download/clone the entire project to your local computer.
+![LimelightRoboticsBanner](https://github.com/user-attachments/assets/5e70cc77-12d3-4707-9e69-139f8c7ac18c)
+</div>
 
 ## Requirements
 To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later.
@@ -11,48 +9,21 @@ To use this Android Studio project, you will need Android Studio Ladybug (2024.2
 To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 
 ## Getting Started
-If you are new to robotics or new to the *FIRST* Tech Challenge, then you should consider reviewing the [FTC Blocks Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html) to get familiar with how to use the control system:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FTC Blocks Online Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html)
+1. **Install Android Studio**: Download and install Android Studio Ladybug (2024.2) or later from the [official website](https://developer.android.com/studio).
 
-Even if you are an advanced Java programmer, it is helpful to start with the [FTC Blocks tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html), and then migrate to the [OnBot Java Tool](https://ftc-docs.firstinspires.org/programming_resources/onbot_java/OnBot-Java-Tutorial.html) or to [Android Studio](https://ftc-docs.firstinspires.org/programming_resources/android_studio_java/Android-Studio-Tutorial.html) afterwards.
+2. **Clone the Repository**: If you haven't already, clone the FTC Robot Controller repository to your local machine using Git:
+   ```
+   git clone https://github.com/Limelight-Robotics/ftc-decode.git
+   ```
 
-## Downloading the Project
-If you are an Android Studio programmer, there are several ways to download this repo.  Note that if you use the Blocks or OnBot Java Tool to program your robot, then you do not need to download this repository.
+3. **Open the Project in Android Studio**:
+   - Launch Android Studio.
+   - Select "Open an existing Android Studio project".
+   - Navigate to the folder where you cloned the repository and select it.
 
-* If you are a git user, you can clone the most current version of the repository:
+4. **Sync the Project**: Once the project is open, Android Studio may prompt you to sync the project with Gradle files. Click "Sync Now" to ensure all dependencies are downloaded.
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/FIRST-Tech-Challenge/FtcRobotController.git</p>
+5. **Connect Your Robot Controller**: Follow the instructions in the [FTC documentation](https://ftc-docs.firstinspires.org/) to connect your robot controller to your development environment.
 
-* Or, if you prefer, you can use the "Download Zip" button available through the main repository page.  Downloading the project as a .ZIP file will keep the size of the download manageable.
-
-* You can also download the project folder (as a .zip or .tar.gz archive file) from the Downloads subsection of the [Releases](https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases) page for this repository.
-
-* The Releases page also contains prebuilt APKs.
-
-Once you have downloaded and uncompressed (if needed) your folder, you can use Android Studio to import the folder  ("Import project (Eclipse ADT, Gradle, etc.)").
-
-## Getting Help
-### User Documentation and Tutorials
-*FIRST* maintains online documentation with information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.  You can access this documentation using the following link:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FIRST Tech Challenge Documentation](https://ftc-docs.firstinspires.org/index.html)
-
-Note that the online documentation is an "evergreen" document that is constantly being updated and edited.  It contains the most current information about the *FIRST* Tech Challenge software and control system.
-
-### Javadoc Reference Material
-The Javadoc reference documentation for the FTC SDK is now available online.  Click on the following link to view the FTC SDK Javadoc documentation as a live website:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FTC Javadoc Documentation](https://javadoc.io/doc/org.firstinspires.ftc)
-
-### Online User Forum
-For technical questions regarding the Control System or the FTC SDK, please visit the FIRST Tech Challenge Community site:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FIRST Tech Challenge Community](https://ftc-community.firstinspires.org/)
-
-### Sample OpModes
-This project contains a large selection of Sample OpModes (robot code examples) which can be cut and pasted into your /teamcode folder to be used as-is, or modified to suit your team's needs.
-
-Samples Folder: &nbsp;&nbsp; [/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples](FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples)
-
-The readme.md file located in the [/TeamCode/src/main/java/org/firstinspires/ftc/teamcode](TeamCode/src/main/java/org/firstinspires/ftc/teamcode) folder contains an explanation of the sample naming convention, and instructions on how to copy them to your own project space.
+6. **Start Coding**: You can now start modifying the code in the `/TeamCode/src/main/java/org/firstinspires/ftc/teamcode` folder to create your own robot control logic.
